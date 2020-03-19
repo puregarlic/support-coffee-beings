@@ -1,0 +1,9 @@
+{
+  "alias": ["support-coffee-beings.now.sh"],
+  "build": {
+    "env": {
+      "AIRTABLE_API_KEY": "@airtable-key",
+      "AIRTABLE_BASE_ID": "@coffee-beings-airtable-base"
+    }
+  }
+}

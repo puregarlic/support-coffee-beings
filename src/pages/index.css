@@ -1,0 +1,114 @@
+html {
+  font-family: -apple-system, sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 64px;
+  margin-top: 128px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.link {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 24px;
+  transition: 0.1s ease-in-out;
+  background: #333;
+  color: white;
+  border: 12px solid #333;
+}
+
+.link:hover {
+  color: #333;
+  background: white;
+}
+
+.venmo {
+  background: #009cde;
+  border-color: #009cde;
+}
+
+.venmo:hover {
+  color: #009cde;
+}
+
+.paypal {
+  background: #003087;
+  border-color: #003087;
+}
+
+.paypal:hover {
+  color: #003087;
+}
+
+.ko-fi {
+  background: #ff5e5b;
+  border-color: #ff5e5b;
+}
+
+.ko-fi:hover {
+  color: #ff5e5b;
+}
+
+.gofundme {
+  background: #00b964;
+  border-color: #00b964;
+}
+
+.gofundme:hover {
+  color: #00b964;
+}
+
+.merch {
+  background: #401524;
+  border-color: #401524;
+}
+
+.merch:hover {
+  color: #401524;
+}
+
+.donation {
+  background: #212d64;
+  border-color: #212d64;
+}
+
+.donation:hover {
+  color: #212d64;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 300px);
+  margin-bottom: 96px;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .grid {
+    grid-template-columns: 300px;
+  }
+}
