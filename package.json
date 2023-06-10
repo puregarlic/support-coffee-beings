@@ -7,7 +7,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.19.45",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-analytics": "^2.1.38",
     "gatsby-plugin-manifest": "^2.2.48",
     "gatsby-plugin-offline": "^3.0.41",
